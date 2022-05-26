@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.details-link { text-align: center;
-}
+  .details-link { 
+    text-align: center;
+  }
 }
 .main-page {
   display: block;
