@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-    <div class="header">
+    <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
       <a class="header__link" 
          href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="workspace">
+    </header>
+    <main class="workspace">
       <h3 class="title">Add Item</h3>
-      <div>
-        <div class="task task_added task_editable">
+      <article>
+        <section class="task task_added task_editable">
           <input class="task__input" type="text">
           <button class="task__btn">Add</button>
-        </div>
-      </div>
+        </section>
+      </article>
       <h3 class="title">Todo</h3>
-      <div class="todo">
-        <div class="task">
+      <article class="todo">
+        <section class="task">
           <input class="task__checkbox" type="checkbox">
           <label class="task__label">Pay Bills</label>
           <input class="task__input" type="text" value="Pay Bills">
@@ -30,8 +30,8 @@
           <button class="task__btn">
             <img class="task__img" src="./remove.svg" alt="remove button">
           </button>
-        </div>
-        <div class="task task_editable">
+        </section>
+        <section class="task task_editable">
           <input class="task__checkbox" type="checkbox">
           <label class="task__label">Go Shopping</label>
           <input class="task__input" type="text" value="Go Shopping">
@@ -39,11 +39,11 @@
           <button class="task__btn">
             <img class="task__img" src="./remove.svg" alt="remove button">
           </button>
-        </div>
-      </div>
+        </section>
+      </article>
       <h3 class="title">Completed</h3>
-      <div class="completed">
-        <div class="task">
+      <article class="completed">
+        <section class="task">
           <input class="task__checkbox" type="checkbox" checked>
           <label class="task__label">See the Doctor</label>
           <input class="task__input" type="text">
@@ -51,9 +51,9 @@
           <button class="task__btn">
             <img class="task__img" src="./remove.svg" alt="remove button">
           </button>
-        </div>
-      </div>
-    </div>
+        </section>
+      </article>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
